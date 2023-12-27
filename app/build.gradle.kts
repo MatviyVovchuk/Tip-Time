@@ -14,8 +14,8 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures{
@@ -39,6 +39,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "34.0.0"
 
 }
 
